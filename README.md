@@ -130,7 +130,7 @@ Data transformation ensured consistency and referential integrity before final l
 3. **SCD Transformation**:
    - Mapped keys and attributes.
    - Defined historical, fixed, and changing fields.
-4. **Load**: Records loaded into the final destination table via OLE DB.
+4. **Load**: Records loaded into the final destination table via OLE DB destination.
 
 ➡️ The same workflow was applied to **Organizations**, **Providers**, and **Payers** dimensions.
 

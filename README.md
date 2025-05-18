@@ -25,4 +25,8 @@ https://synthea.mitre.org/downloads
 17.	Providers
 18.	Supplies
 
+## Dataset Sources
+.csv: All tables except Allergies
+.txt: Allergies
+
 

@@ -10,6 +10,8 @@
 - [Data Warehouse Dimensional Model](#data-warehouse-dimensional-model)
 - [ETL Process](#etl-process)
 - [Author](#author)
+- [Related Projects](#related-projects)
+- [License](#license)
 
 ---
 
@@ -158,14 +160,14 @@ Data transformation ensured consistency and referential integrity before final l
 
 ---
 
-## 🔗 Related Projects
+## Related Projects
 
-- [Healthcare OLTP to Data Warehouse (ETL & Modeling)](https://github.com/ChaLinP/Healthcare-OLTP-to-Data-Warehouse-for-Analytics)
-- [Healthcare SSAS Cube (Multidimensional/Tabular)](https://github.com/ChaLinP/Healthcare-SSAS-Cube)
-- [Healthcare SSRS Reports (Analytics & Visualizations)](https://github.com/your-username/healthcare-ssrs)
+- [Healthcare OLTP to Data Warehouse](https://github.com/ChaLinP/Healthcare-OLTP-to-Data-Warehouse-for-Analytics)
+- [Healthcare SSAS Cube](https://github.com/ChaLinP/Healthcare-SSAS-Cube)
+- [Healthcare SSRS Reports](https://github.com/your-username/healthcare-ssrs)
 
 ---
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 

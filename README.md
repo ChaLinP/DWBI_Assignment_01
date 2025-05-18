@@ -30,5 +30,5 @@ https://synthea.mitre.org/downloads
 - .txt: Allergies
 
 ## High-level DW & BI solution architecture
-![High-level DW & BI solution architecture]([https://drive.google.com/drive/folders/140FXuvtnWTaE-j5grKJ-R5QPlQQzAHzd?usp=sharing](https://drive.google.com/drive/folders/140FXuvtnWTaE-j5grKJ-R5QPlQQzAHzd?usp=drive_link))
+![High-level DW & BI solution architecture](https://drive.google.com/drive/folders/140FXuvtnWTaE-j5grKJ-R5QPlQQzAHzd?usp=drive_link)
 

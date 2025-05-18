@@ -5,14 +5,14 @@
 - [Overview](#overview)
 - [Dataset](#dataset)
 - [Dataset Sources](#dataset-sources)
-- [Entity Relationship Diagram (ERD)](#entity-relationship-diagram-erd)
+- [Entity Relationship Diagram ERD](#entity-relationship-diagram-erd)
 - [High-level DW & BI Solution Architecture](#high-level-dw--bi-solution-architecture)
 - [Data Warehouse Dimensional Model](#data-warehouse-dimensional-model)
 - [ETL Process](#etl-process)
-  - [Extraction](#️extraction)
+  - [Extraction](#extraction)
   - [Transformation & Loading](#transformation--loading)
   - [Patient Dimension Example](#patient-dimension-example)
-  - [Fact Table: Encounters](#fact-table-encounters)
+  - [Fact Table Encounters](#fact-table-encounters)
 - [Author](#author)
 
 ---
@@ -101,7 +101,7 @@ The ETL process was implemented using **SQL Server Integration Services (SSIS)**
 
 ### 🛠️ Extraction
 
-- Flat File Source: Used to extract data from `.txt` and `.csv` files (e.g., `Allergies.txt`).
+- Flat File Source: Used to extract data from `.txt` file (e.g., `Allergies.txt`).
 - Excel Source: Extracted data from Excel files (where applicable).
 - All extracted data was loaded into the **staging area** via **OLE DB Destinations**.
 - **Data profiling** was performed to assess data quality and structure.
@@ -156,7 +156,7 @@ Data transformation ensured consistency and referential integrity before final l
 
 ## 👨‍💻 Author
 
-- **Student ID:** IT22107978  
+- **Student:** Peiris T.C.L 
 - **Institution:** Sri Lanka Institute of Information Technology  
-- **Course:** Information Technology Project – Year 3 Semester 2 (2025)
+- **Course:** DWBI
 

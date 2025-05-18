@@ -48,11 +48,11 @@ The dataset used is a patient medical dataset. The dataset consists of 18 entiti
 
 This is a Star schema dimensional model containing one fact table and five dimension tables.
 Patients, Providers, Payers and Organizations are slowly changing dimensions.
-**Dim Providers** - Details healthcare professionals
-**Dim Organizations** - Stores information about healthcare organizations
-**Dim Patients** - Includes all patients’ details
-**Dim Payers** - Contains information about insurance providers, including coverage statistics and revenue
-**Dim Date** – Instead using the date we store a key to a particular date.
+- **Dim Providers** - Details healthcare professionals
+- **Dim Organizations** - Stores information about healthcare organizations
+- **Dim Patients** - Includes all patients’ details
+- **Dim Payers** - Contains information about insurance providers, including coverage statistics and revenue
+- **Dim Date** – Instead using the date we store a key to a particular date.
 
 Assumptions Made for the Design
 - Assume Encounter table as the fact table because it contains more foreign keys and stores metrics and measures related to healthcare encounters, such as base encounter cost, total claim cost, and payer coverage. 

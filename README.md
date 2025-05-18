@@ -57,6 +57,6 @@ Patients, Providers, Payers and Organizations are slowly changing dimensions.
 Assumptions Made for the Design
 - Assume Encounter table as the fact table because it contains more foreign keys and stores metrics and measures related to healthcare encounters, such as base encounter cost, total claim cost, and payer coverage. 
 - Assume providers, patients, organizations, and payers as dimension tables because the encounter table contains their foreign key.
--Assume Patients, Providers, Payers and Organizations are slowly changing dimensions because they may change over time
+- Assume Patients, Providers, Payers and Organizations are slowly changing dimensions because they may change over time
 
 

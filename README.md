@@ -29,6 +29,8 @@ https://synthea.mitre.org/downloads
 - .csv: All tables except Allergies
 - .txt: Allergies
 
-## High-level DW & BI solution architecture
-![High-level DW & BI solution architecture](https://drive.google.com/file/d/1scnqqerQ3plLR1PPxo6Ij0tUCGdJFi3W/view?usp=sharing)
+## High-level DW & BI Solution Architecture
+
+![High-level DW & BI solution architecture](https://drive.google.com/uc?export=view&id=1scnqqerQ3plLR1PPxo6Ij0tUCGdJFi3W)
+
 

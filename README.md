@@ -156,3 +156,8 @@ Data transformation ensured consistency and referential integrity before final l
 - **Institution:** Sri Lanka Institute of Information Technology  
 - **Course:** DWBI
 
+---
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+

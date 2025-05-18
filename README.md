@@ -33,7 +33,7 @@ The dataset used is a patient medical dataset. The dataset consists of 18 entiti
 17.	Providers
 18.	Supplies
 
-![ER Diagram](https://drive.google.com/file/d/1WohbTvUpQ5sgv4fczP7dBMf1sdwMdI_6)
+![ER Diagram](https://drive.google.com/uc?export=view&id=1WohbTvUpQ5sgv4fczP7dBMf1sdwMdI_6)
 
 ## Dataset Sources
 - .csv: All tables except Allergies

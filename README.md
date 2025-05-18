@@ -32,6 +32,8 @@ The dataset used is a patient medical dataset. The dataset consists of 18 entiti
 16.	Procedures
 17.	Providers
 18.	Supplies
+https://drive.google.com/file/d/1WohbTvUpQ5sgv4fczP7dBMf1sdwMdI_6/view?usp=sharing
+![ER Diagram](https://drive.google.com/file/d/1WohbTvUpQ5sgv4fczP7dBMf1sdwMdI)
 
 ## Dataset Sources
 - .csv: All tables except Allergies

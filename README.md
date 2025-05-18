@@ -13,13 +13,13 @@
 
 ---
 
-## 📘 Overview
+## Overview
 
 This project involves designing and implementing a Data Warehousing and Business Intelligence (DW & BI) solution using a healthcare-related OLTP dataset. The aim is to enable efficient analytics and reporting by transforming transactional healthcare data into a star schema model through a structured ETL process.
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 📥 Source: [Synthea Healthcare Dataset](https://synthea.mitre.org/downloads)
 
@@ -46,20 +46,20 @@ This dataset represents synthetic healthcare records and includes the following 
 
 ---
 
-## 🗃️ Dataset Sources
+## Dataset Sources
 
 - `.csv`: All entities except `Allergies`
 - `.txt`: `Allergies`
 
 ---
 
-## 🧩 Entity Relationship Diagram (ERD)
+## Entity Relationship Diagram (ERD)
 
 ![ER Diagram](https://drive.google.com/uc?export=view&id=1WohbTvUpQ5sgv4fczP7dBMf1sdwMdI_6)
 
 ---
 
-## 🏗️ High-level DW & BI Solution Architecture
+## High-level DW & BI Solution Architecture
 
 This architecture outlines the flow of data from source systems into the data warehouse via SSIS.
 
@@ -67,7 +67,7 @@ This architecture outlines the flow of data from source systems into the data wa
 
 ---
 
-## 🗄️ Data Warehouse Dimensional Model
+## Data Warehouse Dimensional Model
 
 A **Star Schema** dimensional model is used, containing one fact table and five dimension tables.
 
@@ -91,7 +91,7 @@ A **Star Schema** dimensional model is used, containing one fact table and five 
 
 ---
 
-## 🔄 ETL Process
+## ETL Process
 
 The ETL process was implemented using **SQL Server Integration Services (SSIS)**.
 
@@ -150,7 +150,7 @@ Data transformation ensured consistency and referential integrity before final l
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 - **Student:** Peiris T.C.L 
 - **Institution:** Sri Lanka Institute of Information Technology  

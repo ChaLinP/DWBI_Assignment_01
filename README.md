@@ -9,10 +9,6 @@
 - [High-level DW & BI Solution Architecture](#high-level-dw--bi-solution-architecture)
 - [Data Warehouse Dimensional Model](#data-warehouse-dimensional-model)
 - [ETL Process](#etl-process)
-  - [Extraction](#extraction)
-  - [Transformation & Loading](#transformation--loading)
-  - [Patient Dimension Example](#patient-dimension-example)
-  - [Fact Table Encounters](#fact-table-encounters)
 - [Author](#author)
 
 ---

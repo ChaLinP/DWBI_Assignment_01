@@ -4,9 +4,9 @@
 
 This project involves designing and implementing a Data Warehousing and Business Intelligence (DW & BI) solution using a healthcare-related OLTP dataset. The goal is to enable effective analytics and reporting by transforming transactional healthcare data into a dimensional star schema format using ETL processes.
 
-# Dataset
+## Dataset
 https://synthea.mitre.org/downloads
-The dataset used is a patient medical dataset. The dataset consists of 18 entities. They are as follows,
+### The dataset used is a patient medical dataset. The dataset consists of 18 entities. They are as follows,
 1.	Allergies
 2.	Patients
 3.	Claims

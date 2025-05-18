@@ -98,7 +98,7 @@ The ETL process was implemented using **SQL Server Integration Services (SSIS)**
 ### 🛠️ Extraction
 
 - Flat File Source: Used to extract data from `.txt` file (e.g., `Allergies.txt`).
-- Excel Source: Extracted data from Excel files (where applicable).
+- Excel Source: Extracted data from Excel files.
 - All extracted data was loaded into the **staging area** via **OLE DB Destinations**.
 - **Data profiling** was performed to assess data quality and structure.
 

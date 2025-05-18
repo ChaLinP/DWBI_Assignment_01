@@ -6,6 +6,7 @@
 - [Dataset](#dataset)
 - [Dataset Sources](#dataset-sources)
 - [High-level DW & BI Solution Architecture](#high-level-dw--bi-solution-architecture)
+- [Description of the data warehouse dimensional model](#description-of-the-data-warehouse-dimensional-model)
 
 ## Overview
 
@@ -42,5 +43,20 @@ The dataset used is a patient medical dataset. The dataset consists of 18 entiti
 ## High-level DW & BI Solution Architecture
 
 ![High-level DW & BI solution architecture](https://drive.google.com/uc?export=view&id=1scnqqerQ3plLR1PPxo6Ij0tUCGdJFi3W)
+
+## Description of the data warehouse dimensional model
+
+This is a Star schema dimensional model containing one fact table and five dimension tables.
+Patients, Providers, Payers and Organizations are slowly changing dimensions.
+**Dim Providers** - Details healthcare professionals
+**Dim Organizations** - Stores information about healthcare organizations
+**Dim Patients** - Includes all patients’ details
+**Dim Payers** - Contains information about insurance providers, including coverage statistics and revenue
+**Dim Date** – Instead using the date we store a key to a particular date.
+
+Assumptions Made for the Design
+- Assume Encounter table as the fact table because it contains more foreign keys and stores metrics and measures related to healthcare encounters, such as base encounter cost, total claim cost, and payer coverage. 
+- Assume providers, patients, organizations, and payers as dimension tables because the encounter table contains their foreign key.
+-Assume Patients, Providers, Payers and Organizations are slowly changing dimensions because they may change over time
 
 
